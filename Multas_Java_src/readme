@@ -1,0 +1,47 @@
+jercicio Similar: Sistema de Gestión de Bibliotecas
+Basado en el ejercicio del banco, te propongo este sistema de gestión de bibliotecas que utiliza conceptos similares:
+
+Enunciado del Ejercicio
+Implementa en Java una aplicación que simule el funcionamiento de una biblioteca con los siguientes requisitos:
+
+Crea una clase abstracta MaterialBibliografico con los atributos:
+
+id (identificador único)
+
+titulo
+
+disponible (booleano que indica si está disponible para préstamo)
+
+Implementa métodos para:
+
+Consultar los atributos
+
+Prestar el material (cambia disponible a false)
+
+Devolver el material (cambia disponible a true)
+
+Método abstracto calcularMulta() para calcular multa por retraso
+
+Crea dos subclases:
+
+Libro: con atributo numPaginas
+
+Calcula multa: 0.50€ por día de retraso
+
+Revista: con atributo numeroEdicion
+
+Calcula multa: 0.20€ por día de retraso (hasta 5 días), luego 0.50€ por día
+
+Añade un atributo estático DIAS_PRESTAMO común a todos los materiales con valor 15.
+
+Implementa el método toString() en todas las clases.
+
+Crea una clase principal para probar el sistema:
+
+Crea varios materiales bibliográficos
+
+Realiza préstamos y devoluciones
+
+Calcula multas por retraso
+
+Muestra la información de los materiales
