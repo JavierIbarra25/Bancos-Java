@@ -34,6 +34,6 @@ public abstract class CuentaBancaria {
 
     public void traspaso(double cantidad, CuentaBancaria cc) {
         cc.ingresar(cantidad);
-        cc.retirar(cantidad);
+        this.retirar(cantidad);
     }
 }
